@@ -7,7 +7,7 @@ const CalculateSum = (array) => {
     return sum;
 }
 
-const populateArray = () => {
+const PopulateArray = () => {
 
     let array = [];
     for (let i=11; i < 50; i++){
@@ -16,7 +16,7 @@ const populateArray = () => {
      return array;
 }
 
-const array = populateArray();
+const array = PopulateArray();
 
 console.log("Array", array);
 
